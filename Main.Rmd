@@ -166,7 +166,7 @@ class: animated, fadeIn, middle
 
 - Notícias contribuem para a constituição da metáfora do conteúdo.
   - RU retratado como incapaz de dar conta dos processos sociais resultantes da imigração.
-- Representações de imigrantes no contexto do BREXIT:
+- Representações de imigrantes no contexto do BREXIT
   - Usurpadores do sistema de saúde e bem-estar social do RU;
   - Não sanitários e ilegais;
   - Merecedores e não merecedores de imigração;
