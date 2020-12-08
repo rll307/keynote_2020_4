@@ -123,11 +123,11 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 
 /* Add image and change bg color */
 .title-slide {
-  background-image: url(https://github.com/jvcasillas/midd_xaringan/raw/master/img/logo/middlebury_shield.png);
-  background-position: 9% 15%;
-  background-size: 75px;
+  background-image: url(http://www2.iel.unicamp.br/rll307/wp-content/uploads/2020/07/colorido.png);
+  background-position: 82% 10%;
+  background-size: 348px;;
   background-color: #fff;
-  padding-left: 100px;  /* delete this for 4:3 aspect ratio */
+    padding-left: 100px;  /* delete this for 4:3 aspect ratio */
 }
 
 /* H1 fonts */
