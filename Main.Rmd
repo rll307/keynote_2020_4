@@ -100,13 +100,13 @@ class: animated, fadeIn, middle
 class: animated, fadeIn, middle
 
 # Networks
-```{r fig1 ,echo=FALSE,fig.align='center',fig.cap="Network of collocations in the Daily Star",out.width="80%"}
+```{r fig1 ,echo=FALSE,fig.align='center',fig.cap="Network of collocations in the Daily Star",out.width="91%"}
 knitr::include_graphics('./images/fig2.png')
 ```
 ---
 class: animated, fadeIn, middle
 
-```{r fig2 ,echo=FALSE,fig.align='center',fig.cap="Network of collocations in The Sun",out.width="80%"}
+```{r fig2 ,echo=FALSE,fig.align='center',fig.cap="Network of collocations in The Sun",out.width="90%"}
 knitr::include_graphics('./images/fig3.png')
 ```
 ---
