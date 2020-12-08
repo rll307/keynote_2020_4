@@ -106,7 +106,7 @@ knitr::include_graphics('./images/fig2.png')
 ---
 class: animated, fadeIn, middle
 
-```{r fig2 ,echo=FALSE,fig.align='center',fig.cap="Network of collocations in The Sun",out.width="70%"}
+```{r fig2 ,echo=FALSE,fig.align='center',fig.cap="Network of collocations in The Sun",out.width="50%"}
 knitr::include_graphics('./images/fig3.png')
 ```
 ---
