@@ -106,13 +106,13 @@ knitr::include_graphics('./images/fig2.png')
 ---
 class: animated, fadeIn, middle
 
-```{r fig2 ,echo=FALSE,fig.align='center',fig.cap="Network of collocations in The Sun",out.width="50%"}
+```{r fig2 ,echo=FALSE,fig.align='center',fig.cap="Network of collocations in The Sun",out.width="60%"}
 knitr::include_graphics('./images/fig3.png')
 ```
 ---
 class: animated, fadeIn, middle
 
-```{r fig3 ,echo=FALSE,fig.align='center',fig.cap="Network of collocations in The Telegraph"}
+```{r fig3 ,echo=FALSE,fig.align='center',fig.cap="Network of collocations in The Telegraph",out.width="61%"}
 knitr::include_graphics('./images/fig4.png')
 ```
 ---
