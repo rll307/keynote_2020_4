@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Imigração e o contexto do Brexit</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Rodrigo Esteves de Lima-Lopes || rll307@unicamp.br" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/middlebury.css" rel="stylesheet" />
+    <link href="libs/remark-css/middlebury-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Imigração e o contexto do Brexit
+## Redes de Colocados e Análise Multidimensional Aplicadas à Avaliação na SFL
+### Rodrigo Esteves de Lima-Lopes || <a href="mailto:rll307@unicamp.br" class="email">rll307@unicamp.br</a>
+### UNICAMP/CNPq/Cardiff University
+### 09.12.2020
+
+---
+
+
+class: middle, animated, fadeIn
+
+
+&lt;style&gt;
+.center2 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+&lt;/style&gt;
+&lt;style&gt;
+.pre2 {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 3em 0px;
+    margin-top: 0em;
+    margin-right: 0px;
+    margin-bottom: 0em;
+    margin-left: 0px;
+}
+&lt;/style&gt;
+
+&lt;style&gt;
+.font80 {
+  font-size: 80%;
+}
+&lt;/style&gt;
+
+# O Contexto de Pesquisa
+
+1. Vésperas da separação oficial do **Reino Unido** da **Comunidade Comum Europeia**
+1. Contexto desfavorável à imigração ou ao imigrantes no país
+1. Influência da imprensa conservadora nos processos de percepção do *RU*
+1. Constante presença e citação de artigos desta imprensa conservadora em mídias sociais.
+
+---
+class: animated, fadeIn, middle
+# Aquilo que pretendemos
+## Sociais e discursivos
+.big[
+* .RUred[Compreender] como a imprensa conservadora retrata o imigrante no contexto do *Brexit*
+]
+
+## Linguísticos
+
+* .RUred[Verificar] as estratégias mais comuns no sistema de Avaliatividade
+* .RUred[Verificar] a correlação positiva ou negativa entre tais escolhas
+* .RUred[Estabelecer] o perfil de avaliação dos imigrantes em cada publicação
+
+---
+class: animated, fadeIn, middle
+
+# Fundamentação teórica
+* Linguística Sistêmico-Functional
+  * Halliday (1978)
+* Sistema de Avaliatividade
+  * Martin e White (2005) / Alba-Juez &amp; Thompson (2014)
+
+# Metodologia
+* Rede de colocados e Clusters (Brezina et. al, 2015)
+  * Cowo (Levallois, 2021)/Gephi (Bastian et al. 2009)
+* Análise multidimencional (Biber, 1995)
+  * *Scripts* em linguagem .RUred[R]
+
+---
+class: animated, fadeIn, middle
+# Corpora
+.big[
+|               |     Telegraph    |      Sun     |     Daily Star    |
+|---------------|:----------------:|:------------:|:-----------------:|
+|     Types     |        9106      |      8058    |        8543       |
+|     Tokens    |       20468      |     15982    |        15378      |
+|     TTRatio   |        0.45      |      0.50    |        0.55       |
+]
+
+---
+class: animated, fadeIn, middle
+
+# Networks
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./images/fig2.png" alt="Network of collocations in the Daily Star" width="2100" /&gt;
+&lt;p class="caption"&gt;Network of collocations in the Daily Star&lt;/p&gt;
+&lt;/div&gt;
+---
+class: animated, fadeIn, middle
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./images/fig3.png" alt="Network of collocations in The Sun" width="2111" /&gt;
+&lt;p class="caption"&gt;Network of collocations in The Sun&lt;/p&gt;
+&lt;/div&gt;
+---
+class: animated, fadeIn, middle
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./images/fig4.png" alt="Network of collocations in The Telegraph" width="2121" /&gt;
+&lt;p class="caption"&gt;Network of collocations in The Telegraph&lt;/p&gt;
+&lt;/div&gt;
+---
+class: animated, fadeIn, middle
+
+|     Category                                                                      |     What it means                                        |     Appraisal   Function(s)                                                                             |     Examples                                                                                      |
+|-----------------------------------------------------------------------------------|----------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+|     Adjectives   - I (immigrants or immigration)                                  |     Immigrants' social and economic behaviour            |     Judgment   (social sanction)     Propriety     Affect   (negative)     Appreciation   (negative)    |     Bogus,   Awful, Destitute, Dangerous                                                          |
+|     Mixed categories - I (Noun phases, adjectives and prepositional   phrases)    |     Where immigrants are from                            |     Intensification (Focus)     Sharpness                                                               |     Ethnic minorities, Portugal, from Eastern Europe, from poorer EU   countries, Iran, Polish    |
+|     Mixed categories   – II (Proper nouns and noun phrases)                       |     Politicians and other entities voices for support    |     Heteroglossia                                                                                       |     Nigel Farage,   Boris Johnson, say, Official statisticians                                    |
+
+---
+class: animated, fadeIn, middle
+
+# Results
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./images/fig5.png" alt="Relationship between strategies and the appraisal system" width="70%" /&gt;
+&lt;p class="caption"&gt;Relationship between strategies and the appraisal system&lt;/p&gt;
+&lt;/div&gt;
+---
+class: animated, fadeIn, middle
+
+
+|                |     D1                                   |     D2                                                     |     D3                                  |     D4                                |
+|----------------|------------------------------------------|------------------------------------------------------------|-----------------------------------------|---------------------------------------|
+|                |     Immigrants and     border control    |     Legal status,     heteroglossia     and immigration    |     Heteroglossia     and job skills    |     Origin and     economic issues    |
+|     NP_II      |     0.984                                |                                                            |                                         |                                       |
+|     NP_I       |                                          |                                                            |                                         |     0.430                             |
+|     MC_II      |                                          |                                                            |     0.378                               |                                       |
+|     ADJ_II     |                                          |     -0.112                                                 |     0.527                               |                                       |
+|     ADJ_III    |                                          |     0.178                                                  |     -0.453                              |     -0.147                            |
+|     Modals     |     -0.101                               |     0.174                                                  |     0.531                               |     -0.180                            |
+|     MC_I       |                                          |                                                            |                                         |     0.521                             |
+|     ADJ_I      |     0.152                                |                                                            |                                         |     -0.279                            |
+|     MC_III     |                                          |     0.936                                                  |                                         |     0.179                             |
+|     VB         |                                          |     0.139                                                  |     0.104                               |     0.474                             |
+
+---
+class: animated, fadeIn, middle
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./images/fig7.png" alt="Dimensions of Appraisal in the corpus" width="975" /&gt;
+&lt;p class="caption"&gt;Dimensions of Appraisal in the corpus&lt;/p&gt;
+&lt;/div&gt;
+
+---
+class: animated, fadeIn, middle
+
+# Considerações Finais
+
+- Notícias contribuem para a constituição da metáfora do conteúdo.
+  - RU retratado como incapaz de dar conta dos processos sociais resultantes da imigração.
+- Representações de imigrantes no contexto do BREXIT:
+  - Usurpadores do sistema de saúde e bem-estar social do RU;
+  - Não sanitários e ilegais;
+  - Merecedores e não merecedores de imigração;
+    - Relação com questões profissionais e origem;
+- Representação da relação econômica entre RU e CCE;
+  - Economia europeia estaria prejudicando o RU;
+- Ancoragem em vozes externas;
+  - Discurso político-partidário e estatístico.
+- Cada meio noticioso alimenta uma faceta específica do discurso anti-imigração.
+
+---
+class: inverse, animated, fadeIn, middle
+
+## Financiamento
+
+.pull-left[
+
+&lt;img src="./images/cardiff.png" width="150px" style="display: block; margin: auto;" /&gt;
+]
+.pull-right[
+&lt;img src="./images/cnpq.png" width="200px" style="display: block; margin: auto;" /&gt;
+]
+
+## Obrigado!
+
+
+.RUred[Rodrigo Esteves de Lima-Lopes]
+
+.pull-left[
+[rll307@unicamp.br](mailto:rll307@unicamp.br)
+
+
+[http://www.iel.unicamp.br/rll307](http://www.iel.unicamp.br/rll307)
+
+[https://github.com/rll307/](https://github.com/rll307/)
+]
+
+
+.pull-right[
+&lt;img src="./images/negativo.png" width="200px" style="display: block; margin: auto;" /&gt;
+]
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
